@@ -33,6 +33,7 @@ const rtp_input = {
 }
 const rtmp_input = {
   StreamName:'test',
+  StreamInputKey: 'ABCD-1234',
   Type: 'RTMP_PUSH',
   Cidr: '0.0.0.0/0'
 }

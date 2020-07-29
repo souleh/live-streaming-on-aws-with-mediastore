@@ -113,7 +113,7 @@ const createRtmpInput = async (config) => {
             Name: config.StreamName,
             Type: config.Type,
             Destinations: [{
-                    StreamName: `${config.StreamName}/stream`
+                    StreamName: `${config.StreamName}/${config.StreamInputKey}`
                 }
             ]
         };
